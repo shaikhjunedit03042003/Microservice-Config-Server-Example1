@@ -8,4 +8,8 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+  
+jwt:
+  secretKey: lskclscnwiojo29e09328r02fn4o3iut9847934759379r7390r9028730r7023r09239r02309u
+  expireTime: 1800000
     
